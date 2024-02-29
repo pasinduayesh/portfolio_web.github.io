@@ -14,6 +14,7 @@ header {
   /* background-color: #25b79f; */
   background: url(image/untitled-1.png) no-repeat;
   display: flex;
+  background-size: cover;
   background-position: center;
   height: 100vh;
 }
