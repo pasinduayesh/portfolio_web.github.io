@@ -85,7 +85,7 @@ header {
 .home-content .name {
   position: absolute;
   top: 47%;
-  left: 25%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   width: 100%;
