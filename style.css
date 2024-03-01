@@ -11,12 +11,20 @@ body {
 }
 
 header {
-  background-color: #25b79f; 
+  background-color: #081b29;; 
 /*   background: url(image/untitled-1.png) no-repeat; */
   display: flex;
 /*   background-size: cover; */
   background-position: center;
   height: 100vh;
+}
+.header {
+  position: relative;
+}
+.header-image {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 .navbar a:hover{
   color: rgb(11, 81, 233);
@@ -532,6 +540,13 @@ header {
 }
 
 /* ////......Media query......//// */
+
+@media screen and (max-width: 768px) {
+    .header-image {
+        width: 100%;
+        height: auto;
+    }
+}
 
 @media (max-width: 500px) {
   html {
