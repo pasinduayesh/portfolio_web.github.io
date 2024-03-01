@@ -117,6 +117,19 @@ header {
   color: #07374a;
   padding: 1rem;
 }
+.cv-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cv-button:hover {
+    background-color: #333;
+}
 
 /* ////........About Me........//// */
 
