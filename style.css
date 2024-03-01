@@ -8,10 +8,12 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: #081b29
 }
 
 header {
-  background-color: #081b29;; 
+  background-color: #081b29;
+  /* background: url(image/untitled-1.png) no-repeat; */
   display: flex;
   background-size: cover;
   background-position: center;
@@ -539,13 +541,13 @@ header {
 }
 
 /* ////......Media query......//// */
-
 @media screen and (max-width: 768px) {
-    .header-image {
-        width: 100%;
-        height: auto;
-    }
+  .header-image {
+      width: 100%;
+      height: auto;
+  }
 }
+
 
 @media (max-width: 500px) {
   html {
