@@ -19,9 +19,9 @@ header {
   background-position: center;
   height: 100vh;
 }
-.header {
+/* .header {
   position: relative;
-}
+} */
 .header-image {
     width: 100%;
     height: auto;
